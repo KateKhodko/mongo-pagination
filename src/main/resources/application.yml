@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      username: root
+      password: example
+      database: pagination
+      host: localhost
+      port: 27017
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 1KB
+      max-file-size: 200MB
+      max-request-size: 215MB
+
